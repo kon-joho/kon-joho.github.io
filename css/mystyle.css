@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+    h1{
+         
+                  color: #fff;
+                  background-color: #ff69b4;
+                  font-family:serif;
+                  margin: 0;
+                  padding: 0;
+                  font-size: 180%;
+                  text-shadow: 3px 3px 0px black;
+               }
+   footer{
+                  background-color: #73efff;
+               }
+   body{
+      color: #ff00ff;
+      font-size: 120%;
+      background-image: 
+      url("../image/cloud.png");
+   }
+               .subhead{
+                  background-color: #808000;
+               }
+               article h1{
+                  background-color: #02f7ff;
+               }
+       
+               .navy{
+                    color: #ff00ff
+               }
+
+               .red{
+                    color: #ff0000;
+               }
+               p{
+                  font-size: 90%;
+               }
+               
+               h2{
+                  font-size: 120%;
+               }
+               ul{
+                  list-style-type: circle;
+               }
+               .news li{
+                  line-height: 1.2;
+                  border: 1px solid rgb(0, 225, 255);
+               }
+               ul time {
+                  background-color: #ff9de3;
+                  color: #ffffff;
+                  border-radius: 10px;
+    }
+    nav ul{
+      font-weight:bold;
+    }
+    nav ul a{
+      text-decoration: underline;
+      color: #03c0ff;
+    }
+        nav ul a:link{
+      color: #ff69b4;
+        }
+      nav ul a:visited{
+         color: rgb(255, 106, 0);
+      }
+
+    nav ul a:hover{
+      color: #ff00ff;
+    }
+    nav ul a:active{
+      color: #ffff00;
+    }
+    nav li{
+      display:inline;
+      padding-left:10px;
+      padding-right: 12px;
+      border-right: 2px solid #ff00ff;
+    }
+    .photo{
+      float:left;
+      margin-right: 20px;
+    }
+    section{
+      clear:both;
+    }
+.intro{
+   font-size: 20px;
+}
+.profile{
+   width:700px;
+   height: 170px;
+   border:4px solid #ff69b4;
+   margin:20px auto;
+   padding:15px;
+}
+.person{
+    width: 700px;
+    height: 170px;
+    border: 4px solid #66d9ff;
+    margin: 20px auto;
+    padding: 15px;
+}
+.love{
+    width: 700px;
+    height: 170px;
+    border: 4px solid #ff99cc;
+    margin: 20px auto;
+    padding: 15px;
+}
+.work{
+    width: 700px;
+    height: 170px;
+    border: 2px solid #66ffcc;
+    margin: 20px auto;
+    padding: 15px;
+}
+.news{
+   margin-right: 20px;
+}
+@media (max-width: 768px){
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .photo{
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    section{
+        width: 95%;
+        height: auto;
+        margin: 20px auto;
+    }
+    h1{
+        font-size: 140%;
+    }
+    p, li{
+        font-size: 90%;
+    }
+    article{
+      width: auto;
+    }
+    article img{
+      max-width :100%;
+      height: auto;
+
+
+    }
+}
+ul{
+   list-style-image: url( ../image/mark.png );
+   font-weight: bold;
+   margin-left: 30px;
+}
+.point-img{
+   box-shadow: 0px 0px 10px 3px #aaaaaa;
+}
+ol li{
+   display:inline;
+   margin-right: 5px;
+   font-size: 80%;
+}
+ol{
+   padding-left: 0;
+}
+
